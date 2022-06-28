@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Родные просторы</title>
+</head>
+<body>
+    <header id="up" class="header">
+        <div class="container">
+            <nav class="navigation">
+                <img src="icons/header/logo.svg" alt="logo" class="navigation__logo">
+                <div class="navigation__wrap">
+                    <div class="navigation__item navigation__item_w192">
+                        <img src="icons/header/map.svg" alt="map" class="navigation__icon">
+                        Санкт-Петербург
+                    </div>
+                    <div class="navigation__item">
+                        <img src="icons/header/eye.svg" alt="eye" class="navigation__icon">
+                    </div>
+                    <div class="navigation__item">
+                        <img src="icons/header/RU.svg" alt="ru" class="navigation__icon">
+                    </div>
+                    <div class="navigation__item navigation__item_w100">
+                        <div class="navigation__obj">
+                            <img src="icons/header/user.svg" alt="" class="navigation__icon">
+                        </div>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <h1 class="header__title">Путешествуй по России онлайн</h1>
+            <form class="header__form">
+                <input type="search" name="q" placeholder="Например: экскурсия по Великому Новгороду"> 
+                <button class="header__btn">Найти</button>
+            </form>
+            <div class="header__options">
+                <div class="header__option header__option_w194">
+                    Проморолик
+                    <img src="icons/header/video.svg" alt="video" class="header__icon">
+                </div>
+                <div class="header__option header__option_w211">
+                    Поиск по карте
+                    <img src="icons/header/search.svg" alt="search" class="header__icon">
+                </div>
+                <div class="header__option header__option_w276">
+                    Идеи для путешествий
+                    <img src="icons/header/paper.svg" alt="paper" class="header__icon">
+                </div>
+                <div class="header__option header__option_w98">#Видео</div>
+                <div class="header__option header__option_w98">#360°</div>
+                <div class="header__option header__option_w98">#VR</div>
+                <div class="header__option header__option_w98">#3D</div>
+            </div>
+
+        </div>
+    </header>
+    <!-- секция с карточками-местами -->
+    <section class="places">
+        <div class="container">
+            <h2 class="places__title">Интересные места</h2>
+            <div class="places__items">
+                <div class="places__item">
+                    <img src="img/places/bronze-horseman.png" alt="bronze-horseman" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Медный всадник</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                        <div class="places__city">Санкт-Петербург</div>
+                    <div class="places__view places__view_360">360°</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/motherland.png" alt="motherland" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Родина-мать</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                        <div class="places__city">Волгоград</div>
+                    <div class="places__view places__view_video">Видео</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/pushkin.png" alt="pushkin" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Памятник Пушкину</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                        <div class="places__city">Санкт-Петербург</div>
+                    <div class="places__view">3D</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/red-square.png" alt="kremlin" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Кремль</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="places__city">Москва</div>
+                    <div class="places__view">3D</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/peterhof.png" alt="peterhof" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Петергоф</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="places__city">Санкт-Петербург</div>
+                    <div class="places__view places__view_360">360°</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/baikal.png" alt="baikal" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Озеро Байкал</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="places__city">Иркутск</div>
+                    <div class="places__view">3D</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/erarta.png" alt="erarta" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Музей Эрарта</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="places__city">Санкт-Петербург</div>
+                    <div class="places__view places__view_360">360°</div>
+                </div>
+                <div class="places__item">
+                    <img src="img/places/hermitage.png" alt="hermitage" class="places__icon">
+                    <div class="places__wrap">
+                        <div class="places__descr">Эрмитаж</div>
+                        <svg class="places__heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.84 4.61012C20.3292 4.09912 19.7228 3.69376 19.0554 3.4172C18.3879 3.14064 17.6725 2.99829 16.95 2.99829C16.2275 2.99829 15.5121 3.14064 14.8446 3.4172C14.1772 3.69376 13.5708 4.09912 13.06 4.61012L12 5.67012L10.94 4.61012C9.9083 3.57842 8.50903 2.99883 7.05 2.99883C5.59096 2.99883 4.19169 3.57842 3.16 4.61012C2.1283 5.64181 1.54871 7.04108 1.54871 8.50012C1.54871 9.95915 2.1283 11.3584 3.16 12.3901L4.22 13.4501L12 21.2301L19.78 13.4501L20.84 12.3901C21.351 11.8794 21.7563 11.2729 22.0329 10.6055C22.3095 9.93801 22.4518 9.2226 22.4518 8.50012C22.4518 7.77763 22.3095 7.06222 22.0329 6.39476C21.7563 5.7273 21.351 5.12087 20.84 4.61012V4.61012Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="places__city">Санкт-Петербург</div>
+                    <div class="places__view places__view_video">Видео</div>
+                </div>
+            </div>
+            <button class="places__btn">Посмотреть все места</button>
+        </div>
+    </section>
+    <!-- секция с карточками-перевертышами -->
+    <section class="tour">
+        <div class="container">
+            <h2 class="tour__title">Выбери виртуальный тур</h2>
+            <div class="tour__descr">Видео, VR, Видео 360°, 3D</div>
+
+            <div class="tour__wrap">
+
+                <div class="tour__scene">
+                    <div class="tour__card">
+                      <div class="tour__front tour__front_green">
+                        <div class="tour__text tour__text_0">0</div>
+                      </div>
+                      <div class="tour__face tour__face_back">
+                        <img src="img/places/bronze-horseman.png" alt="backface-visibility">
+                        <h2>заголовок</h2>
+                        <button>кнопка</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="tour__scene">
+                    <div class="tour__card">
+                        <div class="tour__front tour__front_red">
+                            <div class="tour__text tour__text_01">01</div>
+                        </div>
+                        <div class="tour__face tour__face_red tour__face_back">
+                            <img src="img/places/bronze-horseman.png" alt="backface-visibility">
+                            <h2>заголовок</h2>
+                            <button>кнопка</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour__scene">
+                    <div class="tour__card">
+                        <div class="tour__front tour__front_orange">
+                            <div class="tour__text tour__text_02">02</div>
+                        </div>
+                        <div class="tour__face tour__face_orange tour__face_back">
+                            <img src="img/places/bronze-horseman.png" alt="backface-visibility">
+                            <h2>заголовок</h2>
+                            <button>кнопка</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour__scene">
+                    <div class="tour__card">
+                        <div class="tour__front tour__front_viol">
+                            <div class="tour__text tour__text_03">03</div>
+                        </div> 
+                        <div class="tour__face tour__face_viol tour__face_back">
+                            <img src="img/places/bronze-horseman.png" alt="backface-visibility">
+                            <h2>заголовок</h2>
+                            <button>кнопка</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> 
+
+            <img src="icons/tour/Ellipse.png" alt="eclipse" class="tour__eclipse">
+        </div>
+    </section>
+    <!-- секция с регионами -->
+    <section class="region">
+        <div class="container">
+            <h2 class="region__title">Топ посещаемый регионов</h2>
+            <div class="region__wrap">
+                <div class="region__item">
+                    <img src="img/region/moscow.png" alt="moscow" class="region__icon">
+                    <div class="region__descr">Москва<br>
+                        и Московская область</div>
+                </div>
+                <div class="region__item">
+                    <img src="img/region/saint-p.png" alt="saint-p" class="region__icon">
+                    <div class="region__descr">Санкт-Петербург<br>
+                        и Ленинградская область</div>
+                </div>
+                <div class="region__item">
+                    <img src="img/region/ircutsk.png" alt="ircutsk" class="region__icon">
+                    <div class="region__descr">Иркутская<br>
+                        область</div>
+                </div>
+                <div class="region__item">
+                    <img src="img/region/kaliningrad.png" alt="kaliningrad" class="region__icon">
+                    <div class="region__descr">Калининградская<br>
+                        область</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- секция сo слайдером -->
+    <section class="choose">
+        <div class="container">
+            <h2 class="choose__title">Выбери тур</h2>
+        </div>
+        <div class="choose__slider">
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/bal.png" alt="bal" class="choose__icon"></div>
+                <div class="choose__descr">Активные 
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/pizza.png" alt="pizza" class="choose__icon"></div>
+                <div class="choose__descr">Гастрономические
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/mountain.png" alt="mountain" class="choose__icon"></div>
+                <div class="choose__descr">Экстримальные
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/beach.png" alt="beach" class="choose__icon"></div>
+                <div class="choose__descr">Оздоровительные
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/wave.png" alt="wave" class="choose__icon"></div>
+                <div class="choose__descr">Круизы</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/bal.png" alt="bal" class="choose__icon"></div>
+                <div class="choose__descr">Активные 
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/pizza.png" alt="pizza" class="choose__icon"></div>
+                <div class="choose__descr">Гастрономические
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/mountain.png" alt="mountain" class="choose__icon"></div>
+                <div class="choose__descr">Экстримальные
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/beach.png" alt="beach" class="choose__icon"></div>
+                <div class="choose__descr">Оздоровительные
+                    туры</div>
+            </div>
+            <div class="choose__item">
+                <div class="choose__square"><img src="icons/choose/wave.png" alt="wave" class="choose__icon"></div>
+                <div class="choose__descr">Круизы</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="subscribe">
+                <div class="subscribe__title">Хотите получать видео на почту<br>
+                    каждый месяц?</div>
+                <div class="subscribe__descr">Для этого нужно всего лишь оформить абсолютно бесплатную<br>
+                    подписку на нашем портале!</div>
+                <button class="subscribe__btn">Оформить подписку</button>
+                <div class="subscribe__circle-big">
+                    <div class="subscribe__circle-small"></div>
+                </div>
+                <img src="icons/footer/camera.svg" alt="camera" class="subscribe__img">
+            </div>
+            <div class="info">
+                <div class="info__wrap info__wrap_left">
+                    <img src="icons/footer/logo__footer.svg" alt="logo" class="info__logo">
+                    <div class="info__descr">RT360.RU – это возможность увидеть памятные места, музеи, императорские дворцы, театры, древние и современные города, храмовые комплексы и уникальные природные достопримечательности многонациональной и такой разной России.</div>
+                </div>
+                <div class="info__wrap info__wrap_right">
+                    <div class="info__basic">
+                        <div class="info__title">Основное</div>
+                        <div class="info__item">Главная</div>
+                        <div class="info__item">Интересные места</div>
+                        <div class="info__item">Подбери себе виртуальный тур</div>
+                        <div class="info__item">Топ посещаемых регионов</div>
+                        <div class="info__item">Идеи для 3D тура</div>
+                        <div class="info__item">Журнал</div>
+                        <div class="info__item">Наш инстаграм</div>
+                    </div>
+                    <div class="info__about">
+                        <div class="info__title">О нас</div>
+                        <div class="info__item">О проекте</div>
+                        <div class="info__item">FAQ</div>
+                        <div class="info__item">Связаться с нами</div>
+                    </div>
+                    <div class="info__social">
+                        <div class="info__title">Соц сети</div>
+                        <div class="info__icons">
+                            <a href="#"><img src="icons/footer/facebook.svg" alt="facebook" class="info__icon"></a>
+                            <a href=""> <img src="icons/footer/social.svg" alt="social" class="info__icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post__copy">© 2021 Rodnye prostory. All rights reserved</div>
+                <div class="post__contacts">
+                    <a href="tel:+79992321111" class="post__tel">+7 (999) 232 - 1 - 111</a>
+                    <a href="tel:+79218882232" class="post__tel">+7 (921) 888 - 22 - 32 </a>
+                    <div class="post__tel">rodniyeprostory@gmail.ru</div>
+                </div>
+        </div>
+
+    </footer>
+    <!-- стрелка для прокрутки вверх -->
+    <a href="#up" class="pageup">
+        <img src="icons/pageup.svg" alt="up">
+    </a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
